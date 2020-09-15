@@ -1,0 +1,10 @@
+
+# Set the container-name to fix value
+CONTAINER_NAME=flavor-php
+
+
+# Don't pull from the internet
+OFFLINE_MODE=1
+
+
+docker build --pull -t $FROM_IMAGE ../

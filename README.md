@@ -1,8 +1,8 @@
 
 # kickstart-flavor gaia :: Apache2, PHP7.2 development container
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fnfra%2Fkickstart-flavor-php%2Fbadge&style=flat)](https://github.com/nfra/kickstart-flavor-php/actions)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fnfra-project%2Fkickstart-flavor-php%2Fbadge&style=flat)](https://github.com/nfra-project/kickstart-flavor-php/actions)
 [![Latest Stable Version](https://img.shields.io/github/release/nfra-project/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php/releases)
-[![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-php.svg)](https://github.com/nfra/kickstart-flavor-php)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php)
 
 see (http://github.com/infracamp/kickstart) for more information.
 

@@ -32,7 +32,6 @@ Document Index:
 |----------------|----------------|---------------------|
 | `http_port`                  | `80`          | The internal port, apache listens on |
 | `apache_www_root`            | `/opt/www`    | The document root |
-| `apache_fallback_resource`   | `null`        | All requests will be redirected to this script. |
 | `SYSLOG_HOST`                | ''            | Send apache2 error log to this host             |
 
 
@@ -42,7 +41,6 @@ In `.kick.yml` you can modify the vhost settings
 
 ```yaml
 apache_vhost_config: |
-    DocumentRoot /opt/www
     FallbackResource /index.php
     php_admin_value file_uploads 0
 ```

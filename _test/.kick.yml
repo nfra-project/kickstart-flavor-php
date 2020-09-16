@@ -9,5 +9,8 @@ apache_vhost_config: |
   CustomLog /dev/log combined
 
 command:
+  test:
+    - curl http://localhost
+
   test_it:
     - "IT:vim"

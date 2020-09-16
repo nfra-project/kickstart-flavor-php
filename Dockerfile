@@ -9,4 +9,3 @@ RUN chmod -R 755 /kickstart && /kickstart/flavor/build.sh
 ENTRYPOINT ["/kickstart/run/entrypoint.sh"]
 # Set from hub.docker.com
 
-

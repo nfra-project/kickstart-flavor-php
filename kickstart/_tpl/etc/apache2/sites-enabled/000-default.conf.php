@@ -6,14 +6,15 @@ $kickApacheVhostConfig = getenv("KICK_APACHE_VHOST_CONFIG");
 
 
 ?>
-<Directory /var/www/html>
+<Directory <?= getenv("KICK_APACHE_DOCUMENT_ROOT") ?>>
     AllowOverride All
     DirectoryIndex index.php index.html
 </Directory>
 
 <VirtualHost *>
     ServerAdmin webmaster@localhost
-    DocumentRoot /var/www/html
+    DocumentRoot <?= getenv("KICK_APACHE_DOCUMENT_ROOT") ?>
+
     CustomLog /dev/null combined
 
     ## Custom configuration from .kick.yml "apache_vhost_config":

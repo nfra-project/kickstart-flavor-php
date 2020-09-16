@@ -2,9 +2,7 @@
 
 set -e
 
-ln -s $WORKDIR/www /var/www/html
-
-/root/.composer/vendor/bin/ctool --tpldir /kickstart/_tpl/etc --target /etc
+/root/.composer/vendor/bin/ctool --tpldir /kickstart/_tpl --target /
 phpenmod kickstart
 
 if [[ "$DEV_MODE" = "0" ]]

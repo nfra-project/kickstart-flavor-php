@@ -19,6 +19,7 @@ xdebug.remote_enable=on
 xdebug.remote_connect_back=off
 
 xdebug.remote_port=9000
-xdebug.remote_host = <?= getenv("DOCKER_HOST_IP"); ?>
-xdebug.idekey = <?= getenv("DEV_CONTAINER_NAME"); ?>
+xdebug.remote_host="<?= getenv("DOCKER_HOST_IP"); ?>"
+
+xdebug.idekey="<?= getenv("DEV_CONTAINER_NAME"); ?>"
 <?php endif; ?>

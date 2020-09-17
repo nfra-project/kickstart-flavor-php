@@ -7,8 +7,8 @@ LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
 FROM ubuntu:20.04
 COPY --from=ckit /kickstart /kickstart
 
-
-ARG DOCKER_TAG="${DOCKER_TAG}"
+## Used by buildkit to determine if it is a full or min build
+ENV FLAVOR_ORIG_DOCKER_TAG="${DOCKER_TAG}"
 
 RUN env
 

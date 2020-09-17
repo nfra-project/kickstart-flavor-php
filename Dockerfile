@@ -1,14 +1,14 @@
 FROM nfra/kickstart-ckit:1.0-rc AS ckit
+FROM ubuntu:20.04
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
         org.infracamp.flavor.tag="${DOCKER_TAG}" \
         org.infracamp.flavor.name="${IMAGE_NAME}"
 
-FROM ubuntu:20.04
 COPY --from=ckit /kickstart /kickstart
 
 ## Used by buildkit to determine if it is a full or min build
-ENV FLAVOR_ORIG_DOCKER_TAG="${DOCKER_TAG}"
+ARG DOCKER_TAG
 
 RUN env
 

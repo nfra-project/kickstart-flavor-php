@@ -16,14 +16,15 @@ Document Index:
 
 ## Tags
 
-| Tag         | Version                 |
+* Use 
+
+| Tag         | OS                 |
 |-------------|-------------------------|
-| latest      | 7.2                     |
-| testing     | 7.2                     |
-| experimental| 7.2                     |
-| 7.4-experimental | 7.4 **new**        |
-| 7.4-testing      | coming soon        |
-| 7.4-stable       | coming soon        |
+| 7.2         | Ubuntu 18.04            |
+| 7.2-min     | Ubuntu 18.04            |
+| 7.4         | Ubuntu 20.04            | 
+| 7.4-min     | Ubuntu 20.04            | 
+
 
 ## Container specific ENV Configuration
 

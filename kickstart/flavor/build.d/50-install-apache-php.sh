@@ -5,7 +5,7 @@ set -e
 
 apt-get update
 apt-get -y install gettext apache2 libapache2-mod-php7.4 composer php7.4-curl php-redis php-xml php-xdebug \
-                    php-zip php-mbstring php-ssh2 php-yaml php-xml php-json php-gd \
+                    php-zip php-mbstring php-ssh2 php-yaml php-xml php-json php-gd php-http \
                     php7.4-intl \
                     php7.4-sqlite3 php-mongodb php7.4-mysql
 

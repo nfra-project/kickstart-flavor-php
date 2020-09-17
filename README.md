@@ -18,7 +18,7 @@ Document Index:
 
 * Use 
 
-| Tag         | OS                 |
+| Tag         | OS                      |
 |-------------|-------------------------|
 | 7.2         | Ubuntu 18.04            |
 | 7.2-min     | Ubuntu 18.04            |

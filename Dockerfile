@@ -1,7 +1,14 @@
 FROM nfra/kickstart-ckit:1.0-rc AS ckit
 
+LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
+        org.infracamp.flavor.tag="${DOCKER_TAG}" \
+        org.infracamp.flavor.name="${IMAGE_NAME}"
+
 FROM ubuntu:20.04
 COPY --from=ckit /kickstart /kickstart
+
+
+ARG DOCKER_TAG="${DOCKER_TAG}"
 
 RUN env
 

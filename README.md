@@ -16,7 +16,7 @@ Document Index:
 
 ## Tags
 
-* Use 
+*Use -min images in Dockerfile and main image in .kick.yml*
 
 | Tag         | OS                      |
 |-------------|-------------------------|

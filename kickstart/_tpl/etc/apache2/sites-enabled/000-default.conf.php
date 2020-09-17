@@ -9,6 +9,7 @@ $kickApacheVhostConfig = getenv("KICK_APACHE_VHOST_CONFIG");
 <Directory <?= getenv("KICK_APACHE_DOCUMENT_ROOT") ?>>
     AllowOverride All
     DirectoryIndex index.php index.html
+    Require all granted
 </Directory>
 
 <VirtualHost *>

@@ -25,6 +25,12 @@ Document Index:
 | 7.4-testing      | coming soon        |
 | 7.4-stable       | coming soon        |
 
+## Container specific ENV Configuration
+
+| Env                      | Default                 | Description         |
+|--------------------------|-------------------------|---------------------|
+| `APACHE_CUSTOM_LOG`      | '/dev/null combined'    | How should apache log requests                |
+
 
 ## Container specific `.kick.yml`-directives
 
@@ -33,6 +39,7 @@ Document Index:
 | `http_port`                  | `80`               | The internal port, apache listens on |
 | `apache_document_root`       | `/var/www/html`    | The document root |
 | `SYSLOG_HOST`                | ''                 | Send apache2 error log to this host             |
+
 
 
 ## Additional configuration

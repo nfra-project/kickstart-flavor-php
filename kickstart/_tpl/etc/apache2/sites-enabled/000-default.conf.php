@@ -16,7 +16,7 @@ $kickApacheVhostConfig = getenv("KICK_APACHE_VHOST_CONFIG");
     ServerAdmin webmaster@localhost
     DocumentRoot <?= getenv("KICK_APACHE_DOCUMENT_ROOT") ?>
 
-    CustomLog /dev/null combined
+    CustomLog <?= getenv("APACHE_CUSTOM_LOG"); ?>
 
     ## Custom configuration from .kick.yml "apache_vhost_config":
 

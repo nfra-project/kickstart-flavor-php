@@ -7,10 +7,8 @@ LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
 
 COPY --from=ckit /kickstart /kickstart
 
-## Used by buildkit to determine if it is a full or min build
+## Used by buildkit to determine if it is a full or min build (requires hooks/build to send the arguments)
 ARG DOCKER_TAG
-
-RUN env
 
 ADD /kickstart /kickstart
 
@@ -19,5 +17,3 @@ ADD /kickstart /kickstart
 
 RUN chmod -R 755 /kickstart && /kickstart/flavor/build.sh
 ENTRYPOINT ["/kickstart/run/entrypoint.sh"]
-# Set from hub.docker.com
-

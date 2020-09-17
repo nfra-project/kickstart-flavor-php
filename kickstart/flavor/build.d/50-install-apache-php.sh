@@ -4,7 +4,7 @@
 set -e
 
 apt-get update
-apt-get -y install --no-recommends apache2 libapache2-mod-php7.4 composer php7.4-curl php-xdebug php-mbstring php-yaml php-xml php-json php-http
+apt-get install -y --no-install-recommends apache2 libapache2-mod-php7.4 composer php7.4-curl php-xdebug php-mbstring php-yaml php-xml php-json php-http
 
 
 # npm removed

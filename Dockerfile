@@ -1,6 +1,6 @@
 FROM nfra/kickstart-ckit:1.0-rc AS ckit
 
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 COPY --from=ckit /kickstart /kickstart
 
 ADD /kickstart /kickstart

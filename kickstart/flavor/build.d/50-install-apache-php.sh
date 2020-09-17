@@ -4,12 +4,10 @@
 set -e
 
 apt-get update
-apt-get -y install gettext apache2 libapache2-mod-php7.2 composer php-imagick php7.2-curl php-redis php-xml php-xdebug \
+apt-get -y install gettext apache2 libapache2-mod-php7.4 composer php7.4-curl php-redis php-xml php-xdebug \
                     php-zip php-mbstring php-ssh2 php-yaml php-xml php-json php-gd \
-                    php7.2-intl \
-                    php7.2-sqlite3 php-mongodb php7.2-mysql \
-                    phpmd phpcpd iputils-ping telnet \
-                    php-zmq php-http php-soap php-apcu
+                    php7.4-intl \
+                    php7.4-sqlite3 php-mongodb php7.4-mysql
 
 
 # npm removed

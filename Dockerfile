@@ -1,4 +1,4 @@
-FROM nfra/kickstart-ckit:1.0-rc AS ckit
+FROM nfra/kickstart-ckit:1.0 AS ckit
 
 FROM ubuntu:18.04
 COPY --from=ckit /kickstart /kickstart

@@ -6,7 +6,7 @@ from: "nfra/kickstart-flavor-php:1.0-dev"
 apache_vhost_config: |
   FallbackResource /index.php
   php_admin_value file_uploads 0
-  CustomLog /dev/log combined
+  CustomLog /dev/c_log combined
 
 command:
   test:

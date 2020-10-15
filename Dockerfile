@@ -1,4 +1,4 @@
-FROM nfra/kickstart-ckit:1.0-rc AS ckit
+FROM nfra/kickstart-ckit:1.1 AS ckit
 FROM ubuntu:20.04
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \

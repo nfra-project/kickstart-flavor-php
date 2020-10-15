@@ -24,6 +24,6 @@ chmod 755 /home/user/.bashrc.kickstart
 echo ". /home/user/.bashrc.kickstart" >> /home/user/.bashrc
 
 
-composer global require nfra/ctool
+
 
 

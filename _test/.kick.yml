@@ -10,7 +10,7 @@ apache_vhost_config: |
 
 command:
   test:
-    - curl http://localhost
+    - curl -f http://localhost
 
   test_it:
     - "IT:vim"

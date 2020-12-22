@@ -4,12 +4,16 @@
 set -e
 
 apt-get update
-apt-get -y install gettext apache2 libapache2-mod-php7.4 composer php-imagick php7.4-curl php-redis php-xml php-xdebug \
+apt-get -y install gettext apache2 libapache2-mod-php7.4 php-imagick php7.4-curl php-redis php-xml php-xdebug \
                     php-zip php-mbstring php-ssh2 php-yaml php-xml php-json php-gd \
                     php7.4-intl \
                     php7.4-sqlite3 php-mongodb php7.4-mysql \
                     phpmd phpcpd iputils-ping telnet \
                     php-zmq php-http php-soap php-apcu
+
+## Install Composer2
+curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 
 # npm removed

@@ -2,7 +2,7 @@
 
 set -e
 
-/root/.composer/vendor/bin/ctool --tpldir /kickstart/_tpl --target /
+/root/.config/composer/vendor/bin/ctool --tpldir /kickstart/_tpl --target /
 phpenmod kickstart
 
 if [[ "$DEV_MODE" = "0" ]]

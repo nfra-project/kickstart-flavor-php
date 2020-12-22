@@ -25,7 +25,7 @@ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=compose
 ##cp /root/flavor/000-default.conf /etc/apache2/sites-available/
 
 # Allow access to composer global install scripts
-echo 'export PATH="$PATH:/opt/bin:/opt/vendor/bin:/home/user/.composer/vendor/bin:$WORKDIR/node_modules/.bin:"' >> /home/user/.bashrc
+echo 'export PATH="$PATH:/opt/bin:/opt/vendor/bin:/home/user/.config/composer/vendor/bin:$WORKDIR/node_modules/.bin:"' >> /home/user/.bashrc
 
 touch /home/user/.bashrc.kickstart
 chmod 755 /home/user/.bashrc.kickstart

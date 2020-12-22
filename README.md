@@ -1,5 +1,5 @@
 
-# kickstart-flavor gaia :: Apache2, PHP7.2 development container
+# kickstart-flavor PHP :: Apache2, PHP7.4 development container
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fnfra-project%2Fkickstart-flavor-php%2Fbadge&style=flat)](https://github.com/nfra-project/kickstart-flavor-php/actions)
 [![Latest Stable Version](https://img.shields.io/github/release/nfra-project/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php/releases)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php)
@@ -18,13 +18,13 @@ Document Index:
 
 *Use -min images in Dockerfile and main image in .kick.yml*
 
-| Tag         | OS                      |
-|-------------|-------------------------|
-| 7.2         | Ubuntu 18.04            |
-| 7.2-min     | Ubuntu 18.04            |
-| 7.4         | Ubuntu 20.04            | 
-| 7.4-min     | Ubuntu 20.04            | 
-
+| Tag         | OS                      | Branch     |
+|-------------|-------------------------|------------|
+| 7.2         | Ubuntu 18.04            | 7.2-stable |
+| 7.2-min     | Ubuntu 18.04            | 7.2-stable |
+| 7.4         | Ubuntu 20.04            | 7.4-stable |
+| 7.4-min     | Ubuntu 20.04            | 7.4-stable |
+| unstable    | Ubuntu 20.04 (master)   | master     |
 
 ## Container specific ENV Configuration
 

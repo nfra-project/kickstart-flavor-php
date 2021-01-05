@@ -14,7 +14,7 @@ apt-get -y install gettext apache2 libapache2-mod-php7.4 php-imagick php7.4-curl
 ## Install Composer2
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
-
+rm /tmp/composer-setup.php
 
 # npm removed
 

@@ -1,6 +1,7 @@
 
 # kickstart-flavor PHP :: Apache2, PHP7.4 development container
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fnfra-project%2Fkickstart-flavor-php%2Fbadge&style=flat)](https://github.com/nfra-project/kickstart-flavor-php/actions)
+
+[![Actions Status](https://github.com/nfra-project/kickstart-flavor-php/workflows/test/badge.svg)](https://github.com/nfra-project/kickstart-flavor-php/actions)
 [![Latest Stable Version](https://img.shields.io/github/release/nfra-project/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php/releases)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php)
 
@@ -35,7 +36,8 @@ file.
 
 See [kickstart/conf/](kickstart/conf/) for default configuration. You can
 override these by placing the files into `.kicker/conf/` directory of your
-project.
+project. The configuration will be written each time the container starts.
+So you can add specific configuration based on ENV settings.
 
 ## Installed Software
 

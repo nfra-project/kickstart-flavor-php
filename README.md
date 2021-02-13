@@ -2,7 +2,6 @@
 # kickstart-flavor PHP :: Apache2, PHP7.4 development container
 
 [![Actions Status](https://github.com/nfra-project/kickstart-flavor-php/workflows/test/badge.svg)](https://github.com/nfra-project/kickstart-flavor-php/actions)
-[![Latest Stable Version](https://img.shields.io/github/release/nfra-project/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php/releases)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php)
 
 see (http://github.com/infracamp/kickstart) for more information.

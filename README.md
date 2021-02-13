@@ -1,5 +1,5 @@
 
-# kickstart-flavor PHP :: Apache2, PHP7.4 development container
+# kickstart-flavor PHP :: Apache2, PHP7, PHP8 development container
 
 [![Actions Status](https://github.com/nfra-project/kickstart-flavor-php/workflows/test/badge.svg)](https://github.com/nfra-project/kickstart-flavor-php/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nfra/kickstart-flavor-php.svg)](https://github.com/nfra-project/kickstart-flavor-php)
@@ -43,7 +43,6 @@ So you can add specific configuration based on ENV settings.
 Make sure your IDE has plugins installed for:
 
 - **[editorconfig](https://editorconfig.org/#download)** 
-
 
 
 ### Using the xdebug debugger / profiler with PhpStorm

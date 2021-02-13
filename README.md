@@ -26,41 +26,17 @@ Document Index:
 | 7.4-min     | Ubuntu 20.04                  | 7.4-stable | |
 | unstable    | Ubuntu 20.04 (master), PHP8   | master     | [Readme](https://github.com/nfra-project/kickstart-flavor-php/) |
 
-## Container specific ENV Configuration
 
-| Env                      | Default                 | Description         |
-|--------------------------|-------------------------|---------------------|
-| `APACHE_CUSTOM_LOG`      | '/dev/null combined'    | How should apache log requests                |
+## Default configuration
 
-
-## Container specific `.kick.yml`-directives
-
-| Key | Default | Description |
-|----------------|----------------|---------------------|
-| `http_port`                  | `80`               | The internal port, apache listens on |
-| `apache_document_root`       | `/var/www/html`    | The document root |
-| `SYSLOG_HOST`                | ''                 | Send apache2 error log to this host             |
-
-
-
-## Additional configuration
-
-In `.kick.yml` you can modify the vhost settings
-
-```yaml
-apache_document_root: /opt/www
-apache_vhost_config: |
-    FallbackResource /index.php
-    php_admin_value file_uploads 0
-```
+By default, the document root points to `/opt/www` with a FallbackResource
+configured to `/index.php`. You can add specific Options using the `.htaccess`
+file.
 
 See [kickstart/conf/](kickstart/conf/) for default configuration. You can
 override these by placing the files into `.kicker/conf/` directory of your
 project.
 
-See [kickstart/conf/](kickstart/_tpl/) for default configuration. You can
-override these by placing the files into `.kicker/conf/` directory of your
-project.
 
 
 ## Installed Software

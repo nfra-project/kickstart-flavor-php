@@ -44,7 +44,6 @@ Make sure your IDE has plugins installed for:
 
 - **[editorconfig](https://editorconfig.org/#download)** 
 
-
 ### Using the xdebug debugger / profiler with PhpStorm
 
 Xdebug is enabled by default if you are in development mode (the project is run by kickstart.sh)

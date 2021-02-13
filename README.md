@@ -58,6 +58,10 @@ See [kickstart/conf/](kickstart/conf/) for default configuration. You can
 override these by placing the files into `.kicker/conf/` directory of your
 project.
 
+See [kickstart/conf/](kickstart/_tpl/) for default configuration. You can
+override these by placing the files into `.kicker/conf/` directory of your
+project.
+
 
 ## Installed Software
 

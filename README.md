@@ -54,6 +54,10 @@ apache_vhost_config: |
     php_admin_value file_uploads 0
 ```
 
+See [kickstart/conf/](kickstart/conf/) for default configuration. You can
+override these by placing the files into `.kicker/conf/` directory of your
+project.
+
 
 ## Installed Software
 

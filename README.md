@@ -33,10 +33,12 @@ By default, the document root points to `/opt/www` with a FallbackResource
 configured to `/index.php`. You can add specific Options using the `.htaccess`
 file.
 
-See [kickstart/conf/](kickstart/conf/) for default configuration. You can
+See [kickstart/conf/](https://github.com/nfra-project/kickstart-flavor-php/tree/master/kickstart/conf/etc) for default configuration. You can
 override these by placing the files into `.kicker/conf/` directory of your
 project. The configuration will be written each time the container starts.
 So you can add specific configuration based on ENV settings.
+
+![Default Config](doc/default-config.png)
 
 ## Installed Software
 

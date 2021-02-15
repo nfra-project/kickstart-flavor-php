@@ -9,12 +9,9 @@ add-apt-repository -y ppa:ondrej/php
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php8.0 php-imagick php8.0-curl php-redis php-xml php-xdebug \
-                    php-zip php-mbstring php-ssh2 php-yaml php-xml php-json php-gd \
-                    php8.0-intl \
-                    php8.0-sqlite3 php-mongodb php8.0-mysql \
-                    phpmd phpcpd iputils-ping telnet \
-                    php-zmq php-http php-soap php-apcu php8.0-raphf
+apt-get -y install gettext apache2 libapache2-mod-php8.0 php8.0-xdebug \
+                    phpmd phpcpd iputils-ping telnet
+
 
 ## Install Composer2
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php

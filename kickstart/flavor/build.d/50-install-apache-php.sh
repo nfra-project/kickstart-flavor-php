@@ -9,7 +9,7 @@ add-apt-repository -y ppa:ondrej/php
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php8.0 php8.0-xdebug \
+apt-get -y install gettext apache2 libapache2-mod-php8.0 php8.0-xdebug php8.0-yaml\
                     phpmd phpcpd iputils-ping telnet
 
 

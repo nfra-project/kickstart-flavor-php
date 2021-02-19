@@ -26,6 +26,8 @@ Document Index:
 | 7.4-min     | Ubuntu 20.04                  | 7.4-stable | 1.1  |
 | unstable    | Ubuntu 20.04 (master), PHP8   | master     | unstable  | [Readme](https://github.com/nfra-project/kickstart-flavor-php/) |
 
+Kickstart uses a fixed version of Ckit to keep the features freeze within
+a version.
 
 ## Default configuration
 

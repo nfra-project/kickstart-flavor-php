@@ -10,6 +10,9 @@ In docker there should be following build-settings:
 
 | Type | Name | Dockerfile Location | Docker Tag name |
 |--------|---------------|---------------------|--------------------|
-| Branch | 7.4-stable    | /                   | 7.4, 7.4-arm32v7   |
-| Tag    | `/^[0-9.]+$/` | /                   | latest          |
-| Tag    | `/^[0-9.]+$/` | /                   | {sourceref} |
+| Branch | master                 | /                   | unstable   |
+| Branch | `/^([0-9.]+)-stable$/` | /                   | {\1}       |
+
+## Modify ckit version in dockerfile
+
+

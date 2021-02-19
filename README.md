@@ -24,7 +24,7 @@ Document Index:
 | 7.2-min     | Ubuntu 18.04                  | 7.2-stable | 1.0  |
 | 7.4         | Ubuntu 20.04                  | 7.4-stable | 1.1  | [Readme](https://github.com/nfra-project/kickstart-flavor-php/tree/7.4-stable) |
 | 7.4-min     | Ubuntu 20.04                  | 7.4-stable | 1.1  |
-| unstable    | Ubuntu 20.04 (master), PHP8   | master     | 1.3  | [Readme](https://github.com/nfra-project/kickstart-flavor-php/) |
+| unstable    | Ubuntu 20.04 (master), PHP8   | master     | unstable  | [Readme](https://github.com/nfra-project/kickstart-flavor-php/) |
 
 
 ## Default configuration

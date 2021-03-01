@@ -95,6 +95,11 @@ just set the breakpoint
 
 If debugging won't work, use our checklist to determine the cause:
 
+1) Verfiy with PhpStorm Debug validator. (Make sure `Path to validation script` is the
+full path to your www-root)
+
+![](doc/validate-xdebug-config.png)
+
 1) Check the docker-host's IP was propagated correctly.
     - The IP should be set as environment-variable `DOCKER_HOST_IP`
     - Inside the container type `echo $DOCKER_HOST_IP` should print your ip

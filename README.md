@@ -53,7 +53,7 @@ Make sure your IDE has plugins installed for:
 Xdebug is enabled by default if you are in development mode (the project is run by kickstart.sh)
 
 Xdebug is configured to connect the IDE on the `Docker-Host-IP` (which is the first configured IP of your
-host machine - determined by kickstart.sh) on Port `9000`
+host machine - determined by kickstart.sh) on Port `9003`
 
 #### PhpStorm IDE settings (global) 
 
@@ -109,11 +109,11 @@ full path to your www-root)
     > B) Solution: Check `hostname -i` returns your primary IP address on your
     > host machine.
     
-2) Check the IDE is connectable from within the container on Port `9000` 
+2) Check the IDE is connectable from within the container on Port `9003` (new port since PHP8.0)
     - Install netcat and try the script below:
     ```
     sudo apt install netcat
-    nc -zw3 $DOCKER_HOST_IP 9000 && echo "OK: IDE is reachable on port 9000" || echo "ERROR: IDE unreachable"
+    nc -zw3 $DOCKER_HOST_IP 9000 && echo "OK: IDE is reachable on port 9003" || echo "ERROR: IDE unreachable"
     ```
     > A) Check if you can reach this PORT from outside the container. If not your IP might be wrong,
     > or your IDE is not correctly configured.    

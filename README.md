@@ -29,6 +29,22 @@ Document Index:
 Kickstart uses a fixed version of Ckit to keep the features freeze within
 a version.
 
+## Install additional packages
+
+The container comes with no additional Modules pre-installed except xdebug. You might
+want to add the following packages to your <kbd>.kick.yml</kbd> `packages:` section to install them.
+
+You'll find all available modules by running `apt update && apt search php8.0`
+
+
+**Example: Using Curl**
+```yaml
+packages: [php8.0-curl, php8.0-http, php8.0-raphf]
+```
+
+
+
+
 ## Default configuration
 
 By default, the document root points to `/opt/www` with a FallbackResource

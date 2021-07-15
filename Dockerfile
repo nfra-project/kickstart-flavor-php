@@ -1,5 +1,5 @@
 FROM nfra/kickstart-ckit:unstable AS ckit
-FROM ubuntu:20.04
+FROM ubuntu:21.04
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
         org.infracamp.flavor.tag="${DOCKER_TAG}" \

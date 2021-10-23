@@ -26,7 +26,15 @@ jobs:
         run: |
           CI_BUILD_NAME=unstable
           CI_REGISTRY_IMAGE=$CI_REGISTRY/$GITHUB_REPOSITORY
-          ./.kicker/kickstart.static.sh ci-build
+          docker build --pull -t test/image ../
+
+          cd test/
+          ./kickstart.sh :test
+          cd ..
+
+          docker tag test/image $CI_REGISTRY_IMAGE
+          echo "$CI_REGISTRY_PASSWORD" | docker login --username $CI_REGISTRY_USER --password-stdin $CI_REGISTRY
+          docker push $imageName
         env:
           CI_REGISTRY: ghcr.io
           CI_REGISTRY_USER: giblab-user

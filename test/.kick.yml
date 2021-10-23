@@ -1,7 +1,7 @@
 # Kickstart container config file - see https://gitub.com/infracamp/kickstart
 # Run ./kickstart.sh to start a development-container for this project
 version: 1
-from: "nfra/kickstart-flavor-php:1.0-dev"
+from: "test/image"
 
 apache_vhost_config: |
   FallbackResource /index.php

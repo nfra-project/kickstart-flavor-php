@@ -1,4 +1,4 @@
-FROM ghcr.io/nfra-project/kickstart-container-kit:unstable AS ckit
+FROM ghcr.io/nfra-project/kickstart-container-kit:testing AS ckit
 FROM ubuntu:20.04
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \

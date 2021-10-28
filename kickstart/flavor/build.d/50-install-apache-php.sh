@@ -29,6 +29,10 @@ rm /tmp/composer-setup.php
 # Allow access to composer global install scripts
 echo 'export PATH="$PATH:$WORKDIR/vendor/bin:/home/user/.config/composer/vendor/bin:$WORKDIR/node_modules/.bin:"' >> /etc/kick_bashrc.d/path
 
+## Default: Enable apache2 Modules: Header, Rewrite
+a2enmod headers
+a2enmod rewrite
+
 touch /home/user/.bashrc.kickstart
 chmod 755 /home/user/.bashrc.kickstart
 

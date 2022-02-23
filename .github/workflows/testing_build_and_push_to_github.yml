@@ -10,6 +10,8 @@ name: UNSTABLE_build_and_push_to_github
 ## SECURITY: Do not youe "pull_request_target" nr "pull_request" here! See
 ## https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
 on:
+  schedule:
+    - cron: '22 6 4 * *'  # on Wednesday at 6:22
   push:
     branches:
       - main

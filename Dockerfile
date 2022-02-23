@@ -1,4 +1,4 @@
-FROM ghcr.io/nfra-project/kickstart-container-kit:testing AS ckit
+FROM ghcr.io/nfra-project/kickstart-container-kit:1.4.3 AS ckit
 FROM ubuntu:21.10
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \

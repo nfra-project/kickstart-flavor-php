@@ -11,7 +11,7 @@ name: build_and_push_to_github
 ## https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
 on:
   schedule:
-    - cron: '37 22 * * *'  # on Wednesday at 6:22
+    - cron: '42 21 * * *'  # on Wednesday at 6:22
   push:
     branches:
       - main

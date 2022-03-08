@@ -11,7 +11,7 @@ name: schedule-8.0
 ## https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
 on:
   schedule:
-    - cron: '15 10 * * *'  # on Wednesday at 6:22
+    - cron: '11 10 * * *'  # on Wednesday at 6:22
 
 jobs:
   build_and_push_github:
@@ -34,7 +34,7 @@ jobs:
 
       - name: Push
         run: |
-          CI_BRANCH=$(git tag)
+          CI_BRANCH=$(git branch --show-current)
           echo "CI_BRANCH 1: $CI_BRANCH"
           [[ "$CI_BRANCH" == "" ]] && CI_BRANCH=$(git branch --show-current)
           echo "CI_BRANCH 2: $CI_BRANCH"
@@ -46,7 +46,7 @@ jobs:
           CI_BUILD_NAME=${CI_BUILD_NAME#refs/tags/release/}
           CI_REGISTRY_IMAGE=$CI_REGISTRY/$GITHUB_REPOSITORY:$CI_BUILD_NAME
           echo "Final image name: $CI_REGISTRY_IMAGE"
-          docker tag test/image $CI_REGISTRY_IMAGE
+          docker tag "test/image" "$CI_REGISTRY_IMAGE"
           echo "$CI_REGISTRY_PASSWORD" | docker login --username $CI_REGISTRY_USER --password-stdin $CI_REGISTRY
           docker push $CI_REGISTRY_IMAGE
         env:

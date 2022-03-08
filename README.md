@@ -19,13 +19,12 @@ Document Index:
 
 *Use -min images in Dockerfile and main image in .kick.yml*
 
-| Tag         | OS                            | Branch     | CKit | Docs |
-|-------------|-------------------------------|------------|------|------|
-| 7.2         | Ubuntu 18.04 (LTS)            | 7.2-stable | 1.0  | [Readme](https://github.com/nfra-project/kickstart-flavor-php/tree/7.2-stable) |
-| 7.2-min     | Ubuntu 18.04 (LTS)            | 7.2-stable | 1.0  |
-| 7.4         | Ubuntu 20.04 (LTS)            | 7.4-stable | 1.1  | [Readme](https://github.com/nfra-project/kickstart-flavor-php/tree/7.4-stable) |
-| 7.4-min     | Ubuntu 20.04 (LTS)            | 7.4-stable | 1.1  |
-| unstable    | Ubuntu 20.04 (master), PHP8   | master     | unstable  | [Readme](https://github.com/nfra-project/kickstart-flavor-php/) |
+| Tag      | OS                          | Branch      | CKit     | Docs                                                                       |
+|----------|-----------------------------|-------------|----------|----------------------------------------------------------------------------|
+| 7.2      | Ubuntu 18.04 (LTS)          | release/7.2 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.2) |
+| 7.4      | Ubuntu 20.04 (LTS)          | release/7.4 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.4) |
+| 8.0      | Ubuntu 21.10                | release/8.0 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.0) |
+| unstable | Ubuntu 21.10 (master), PHP8 | master      | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-php/)            |
 
 
 Kickstart uses a fixed version of Ckit to keep the features freeze within

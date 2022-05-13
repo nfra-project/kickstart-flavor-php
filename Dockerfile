@@ -1,5 +1,5 @@
 FROM ghcr.io/nfra-project/kickstart-container-kit:testing AS ckit
-FROM ubuntu:21.10
+FROM ubuntu:22.04
 
 LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
         org.infracamp.flavor.tag="${DOCKER_TAG}" \

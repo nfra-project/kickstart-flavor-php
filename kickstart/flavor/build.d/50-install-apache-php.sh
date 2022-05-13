@@ -8,7 +8,7 @@ apt-get install -y software-properties-common
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php8.0 php8.0-xdebug php8.0-mbstring php8.0-yaml\
+apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mbstring php8.1-yaml\
                    iputils-ping telnet
 
 

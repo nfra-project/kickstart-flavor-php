@@ -24,7 +24,8 @@ Document Index:
 | 7.2      | Ubuntu 18.04 (LTS)          | release/7.2 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.2) |
 | 7.4      | Ubuntu 20.04 (LTS)          | release/7.4 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.4) |
 | 8.0      | Ubuntu 21.10                | release/8.0 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.0) |
-| unstable | Ubuntu 21.10 (master), PHP8 | master      | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-php/)            |
+| 8.1      | Ubuntu 22.04                | release/8.1 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.1) |
+| unstable | Ubuntu 22.04 (master), PHP8 | master      | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-php/)            |
 
 
 Kickstart uses a fixed version of Ckit to keep the features freeze within

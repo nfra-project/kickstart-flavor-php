@@ -12,8 +12,7 @@ Document Index:
 - [Dockerhub page](https://hub.docker.com/r/nfra/kickstart-flavor-php/)
     - [Tags available](https://hub.docker.com/r/nfra/kickstart-flavor-php/tags/)
     - [Build details](https://hub.docker.com/r/nfra/kickstart-flavor-php/builds/)
-
-
+    
 
 ## Tags
 

@@ -14,7 +14,7 @@ apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mb
 
 # Install NPM
 apt-get -y install --no-install-recommends npm
-npm install --global webpack-cli
+npm install --global webpack-cli typescript ts-loader
 
 ## Install Composer2
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php

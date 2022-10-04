@@ -13,7 +13,7 @@ apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mb
                    iputils-ping telnet
 
 # Install Node 14x
-curl -sL https://deb.nodesource.com/setup_13.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo bash -
 sudo apt-get install -y nodejs
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
 echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list

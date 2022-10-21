@@ -10,7 +10,7 @@ apt-get update
 
 
 apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mbstring php8.1-yaml\
-                   iputils-ping telnet
+                   iputils-ping telnet esbuild
 
 # Install Node 14x
 curl -sL https://deb.nodesource.com/setup_18.x | sudo bash -

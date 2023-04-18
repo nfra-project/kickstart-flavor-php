@@ -9,7 +9,7 @@ apt-get install -y software-properties-common
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php7.4 php7.4-xdebug php7.4-mbstring php7.4-yaml\
+apt-get -y install gettext apache2 libapache2-mod-php7.4 \
                    iputils-ping telnet
 
 

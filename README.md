@@ -19,13 +19,14 @@ Document Index:
 
 *Use -min images in Dockerfile and main image in .kick.yml*
 
-| Tag       | OS                          | Branch      | CKit     | Docs                                                                       |
-|-----------|-----------------------------|-------------|----------|----------------------------------------------------------------------------|
-| 7.2       | Ubuntu 18.04 (LTS)          | release/7.2 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.2) |
-| 7.4       | Ubuntu 20.04 (LTS)          | release/7.4 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.4) |
-| 8.0 (EOL) | Ubuntu 21.10 End of Life!   | release/8.0 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.0) |
-| 8.1       | Ubuntu 22.04                | release/8.1 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.1) |
-| unstable  | Ubuntu 22.04 (master), PHP8 | master      | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-php/)            |
+| Tag       | OS                          | Branch        | CKit     | Docs                                                                         |
+|-----------|-----------------------------|---------------|----------|------------------------------------------------------------------------------|
+| 7.2       | Ubuntu 18.04 (LTS)          | release/7.2   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.2)   |
+| 7.4       | Ubuntu 20.04 (LTS)          | release/7.4   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.4)   |
+| 7.4.1     | Ubuntu 22.04 (LTS)          | release/7.4.1 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.4.1) |
+| 8.0 (EOL) | Ubuntu 21.10 End of Life!   | release/8.0   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.0)   |
+| 8.1       | Ubuntu 22.04                | release/8.1   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.1)   |
+| unstable  | Ubuntu 22.04 (master), PHP8 | master        | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-php/)              |
 
 
 Kickstart uses a fixed version of Ckit to keep the features freeze within

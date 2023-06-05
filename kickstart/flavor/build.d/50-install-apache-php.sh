@@ -37,3 +37,4 @@ touch /home/user/.bashrc.kickstart
 chmod 755 /home/user/.bashrc.kickstart
 
 echo ". /home/user/.bashrc.kickstart" >> /home/user/.bashrc
+

@@ -12,18 +12,10 @@ apt-get update
 apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mbstring php8.1-yaml\
                    iputils-ping telnet
 
-# Install Node 14x
-curl -sL https://deb.nodesource.com/setup_18.x | sudo bash -
+# Install Node and NPM
+curl -sL https://deb.nodesource.com/setup_20.x | sudo bash -
 sudo apt-get install -y nodejs
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get update && sudo apt-get install yarn
-# Install NPM
-#apt-get -y install --no-install-recommends npm
-#npm install --global webpack-cli typescript ts-loader
 
-# Install EsBuild JS/CSS Bundler
-sudo apt-get install -y esbuild
 
 ## Install Composer2
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php

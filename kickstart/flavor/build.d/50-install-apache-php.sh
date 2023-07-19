@@ -9,8 +9,10 @@ apt-get install -y software-properties-common
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php php8-xdebug php8-mbstring php8-yaml\
+apt-get -y install gettext apache2 libapache2-mod-php\
                    iputils-ping telnet
+
+## Not avilable in 23.04: php8-xdebug php8-mbstring php8-yaml
 
 # Install Node and NPM
 curl -sL https://deb.nodesource.com/setup_20.x | sudo bash -

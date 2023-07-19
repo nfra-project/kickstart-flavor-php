@@ -9,20 +9,14 @@ apt-get install -y software-properties-common
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php\
-                   iputils-ping telnet
+apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mbstring php8.1-yaml\
+                   iputils-ping telnet composer
 
-## Not avilable in 23.04: php8-xdebug php8-mbstring php8-yaml
 
 # Install Node and NPM
 curl -sL https://deb.nodesource.com/setup_20.x | sudo bash -
 sudo apt-get install -y nodejs
 
-
-## Install Composer2
-curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
-sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
-rm /tmp/composer-setup.php
 
 # npm removed
 

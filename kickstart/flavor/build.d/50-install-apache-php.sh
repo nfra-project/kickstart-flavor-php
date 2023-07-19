@@ -9,7 +9,7 @@ apt-get install -y software-properties-common
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mbstring php8.1-yaml\
+apt-get -y install gettext apache2 libapache2-mod-php8.2 php8.2-xdebug php8.2-mbstring php8.2-yaml\
                    iputils-ping telnet
 
 # Install Node and NPM

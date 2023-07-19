@@ -43,3 +43,6 @@ touch /home/user/.bashrc.kickstart
 chmod 755 /home/user/.bashrc.kickstart
 
 echo ". /home/user/.bashrc.kickstart" >> /home/user/.bashrc
+
+## Ubuntu 23.04 -> change user ubuntu to uid 999
+usermod -u 999 ubuntu

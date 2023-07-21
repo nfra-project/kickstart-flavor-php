@@ -10,7 +10,8 @@ apt-get update
 
 
 apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mbstring php8.1-yaml\
-                   iputils-ping telnet composer
+                   iputils-ping telnet composer esbuild inotify-tools \
+                   php8.1-curl php8.1-http php8.1-raphf
 
 
 # Install Node and NPM

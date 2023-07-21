@@ -26,7 +26,7 @@ Document Index:
 | 7.4.1     | Ubuntu 22.04 (LTS)          | release/7.4.1 | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/7.4.1) |
 | 8.0 (EOL) | Ubuntu 21.10 End of Life!   | release/8.0   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.0)   |
 | 8.1       | Ubuntu 22.04                | release/8.1   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.1)   |
-| 8.2       | Ubuntu 23.04                | release/8.2   | 1.5      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.2)   |
+| 8.1b      | Ubuntu 23.04                | release/8.1b  | 1.5      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.1b)  |
 | unstable  | Ubuntu 23.04 (master), PHP8 | master        | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-php/)              |
 
 

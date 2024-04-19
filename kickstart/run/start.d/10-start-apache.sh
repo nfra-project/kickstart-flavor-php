@@ -13,4 +13,4 @@ else
     echo 'export XDEBUG_CONFIG="idekey=$DEV_CONTAINER_NAME"' >> /home/user/.bashrc.kickstart
 fi;
 
-apache2ctl start
+apache2ctl -e debug -k start

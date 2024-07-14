@@ -11,7 +11,7 @@ name: schedule-unstable
 ## https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
 on:
   schedule:
-    - cron: '15 10 * * *'  # on Wednesday at 6:22
+    - cron: '15 10 * * 1,3,6'  # on Monday and Thursday
 
 jobs:
   build_and_push_github:

@@ -14,4 +14,3 @@ In docker there should be following build-settings:
 | Branch | `/^([0-9.]+)-stable$/` | /                   | {\1}       |
 
 ## Modify ckit version in dockerfile
-

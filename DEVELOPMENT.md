@@ -15,4 +15,3 @@ In docker there should be following build-settings:
 
 ## Modify ckit version in dockerfile
 
-

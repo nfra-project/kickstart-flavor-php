@@ -9,9 +9,9 @@ apt-get install -y software-properties-common
 apt-get update
 
 
-apt-get -y install gettext apache2 libapache2-mod-php8.1 php8.1-xdebug php8.1-mbstring php8.1-yaml\
+apt-get -y install gettext apache2 libapache2-mod-php8.3 php8.3-xdebug php8.3-mbstring php8.3-yaml\
                    iputils-ping telnet composer esbuild inotify-tools \
-                   php8.1-curl php8.1-http php8.1-raphf php8.1-ssh2
+                   php8.3-curl php8.3-http php8.3-raphf php8.3-ssh2 php8.3-sqlite3
 
 # ssh2 is used for composer private repositories
 # php8.1-raphf is used for pecl_http

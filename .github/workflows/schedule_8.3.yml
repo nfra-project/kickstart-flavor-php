@@ -5,7 +5,7 @@
 ## Examples
 ## Branch: release/1.1   -> ghcr.io/some/repo:1.1
 
-name: schedule-8.1
+name: schedule-8.3
 
 ## SECURITY: Do not youe "pull_request_target" nr "pull_request" here! See
 ## https://securitylab.github.com/research/github-actions-preventing-pwn-requests/

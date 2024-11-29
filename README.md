@@ -27,6 +27,7 @@ Document Index:
 | 8.0 (EOL) | Ubuntu 21.10 End of Life!   | release/8.0   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.0)   |
 | 8.1       | Ubuntu 22.04                | release/8.1   | 1.4      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.1)   |
 | 8.1b      | Ubuntu 23.04                | release/8.1b  | 1.5      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.1b)  |
+| 8.3       | Ubuntu 24.04                | release/8.3   | 1.5      | [Readme](https://github.com/nfra-project/kickstart-flavor-php/release/8.3)   |
 | unstable  | Ubuntu 23.04 (master), PHP8 | master        | unstable | [Readme](https://github.com/nfra-project/kickstart-flavor-php/)              |
 
 
@@ -46,6 +47,7 @@ You'll find all available modules by running `apt update && apt search php8.0`
 packages: [php8.0-curl, php8.0-http, php8.0-raphf]
 ```
 
+## Preinstalled PHP Modules (as of 8.3)
 
 
 

@@ -16,8 +16,8 @@ apt-get -y install gettext apache2 libapache2-mod-php8.3 php8.3-xdebug php8.3-mb
 # php8.1-raphf is used for pecl_http
 
 
-# Install Node and NPM
-curl -sL https://deb.nodesource.com/setup_20.x | sudo bash -
+# Install Node and NPM - See https://github.com/nodesource/distributions?tab=readme-ov-file#ubuntu-versions
+curl -sL https://deb.nodesource.com/setup_23.x | sudo bash -
 sudo apt-get install -y nodejs
 sudo npm install -g npm
 

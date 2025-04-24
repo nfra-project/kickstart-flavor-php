@@ -83,8 +83,14 @@ This will allow you to connect to the container via SSH on port 2222 but only fr
 
 **Configure your IDE to use SSH on port 2222.**
 
+![](doc/node-debug-sshconfig.png)
+![](doc/node-debug-run.png)
 
+After this you schould be able to run the remote debugging session.
 
+Tested for:
+- vitest
+- vite serve
 
 
 ### Using the xdebug debugger / profiler with PhpStorm

@@ -47,3 +47,4 @@ usermod -u 999 ubuntu
 ## configure sshd to allow empty passwords for user (to allow remote debugging for node, vite, etc.)
 echo "PermitEmptyPasswords yes" >> /etc/ssh/sshd_config
 echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
+passwd -d user

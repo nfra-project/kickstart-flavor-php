@@ -70,6 +70,23 @@ Make sure your IDE has plugins installed for:
 
 - **[editorconfig](https://editorconfig.org/#download)** 
 
+### Using Nodejs Remote Debugging (via SSH)
+
+SSH is automatically configured to start in dev mode. To allow remote debugging
+you need to add the following lines to your `.kick.yml` file:
+
+```yaml
+ports: "127.0.0.1:2222:22"
+```
+
+This will allow you to connect to the container via SSH on port 2222 but only from the local network.
+
+**Configure your IDE to use SSH on port 2222.**
+
+
+
+
+
 ### Using the xdebug debugger / profiler with PhpStorm
 
 Xdebug is enabled by default if you are in development mode (the project is run by kickstart.sh)

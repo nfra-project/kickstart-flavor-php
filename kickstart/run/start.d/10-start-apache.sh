@@ -3,13 +3,12 @@
 set -e
 
 phpenmod kickstart
-
-if [[ "$DEV_MODE" = "0" ]]
+phpdismod xdebug
+if [[ "$DEV_MODE" = "1" ]]
 then
-    phpdismod xdebug
-else
-    # Start sshd
+    ## Start SSH for remote debugging
     service ssh start
+
     # Enable xdebu
     phpenmod xdebug
     echo 'export PHP_IDE_CONFIG="serverName=$DEV_CONTAINER_NAME"' >> /home/user/.bashrc.kickstart

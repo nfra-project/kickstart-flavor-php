@@ -4,6 +4,8 @@ set -e
 
 phpenmod kickstart
 phpdismod xdebug
+
+
 if [[ "$DEV_MODE" = "1" ]]
 then
     ## Start SSH for remote debugging

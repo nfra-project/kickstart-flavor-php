@@ -81,6 +81,8 @@ ports: "127.0.0.1:2222:22"
 
 This will allow you to connect to the container via SSH on port 2222 but only from the local network.
 
+The Password of user "user" is "" (empty).
+
 **Configure your IDE to use SSH on port 2222.**
 
 ![](doc/node-debug-sshconfig.png)

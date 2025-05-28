@@ -1,9 +1,9 @@
-FROM ghcr.io/nfra-project/kickstart-container-kit:testing AS ckit
+FROM ghcr.io/nfra-project/kickstart-container-kit:unstable AS ckit
 FROM ubuntu:24.04
 
-LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
-        org.infracamp.flavor.tag="${DOCKER_TAG}" \
-        org.infracamp.flavor.name="${IMAGE_NAME}"
+LABEL   maintainer="Matthias Leuffen <m@tth.es>"
+     #   org.infracamp.flavor.tag="${DOCKER_TAG}" \
+     #   org.infracamp.flavor.name="${IMAGE_NAME}"
 
 COPY --from=ckit /kickstart /kickstart
 

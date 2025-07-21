@@ -17,7 +17,7 @@ apt-get -y install gettext apache2 libapache2-mod-php8.3 php8.3-xdebug php8.3-mb
 
 
 # Install Node and NPM
-curl -sL https://deb.nodesource.com/setup_20.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_22.x | sudo bash -
 sudo apt-get install -y nodejs
 sudo npm install -g npm
 

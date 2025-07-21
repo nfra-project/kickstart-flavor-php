@@ -17,7 +17,7 @@ apt-get -y install gettext openssh-server apache2 libapache2-mod-php8.3 php8.3-x
 
 
 # Install Node and NPM - See https://github.com/nodesource/distributions?tab=readme-ov-file#ubuntu-versions
-curl -sL https://deb.nodesource.com/setup_23.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_24.x | sudo bash -
 sudo apt-get install -y nodejs
 sudo npm install -g npm yarn pnpm
 

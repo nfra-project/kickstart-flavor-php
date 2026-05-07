@@ -9,9 +9,9 @@ apt-get install -y software-properties-common
 apt-get update
 
 
-apt-get -y install gettext openssh-server apache2 libapache2-mod-php8.3 php8.3-xdebug php8.3-mbstring php8.3-yaml\
+apt-get -y install gettext openssh-server apache2 libapache2-mod-php php-xdebug php-mbstring php-yaml\
                    iputils-ping telnet composer esbuild inotify-tools \
-                  php8.3-bcmath php8.3-bz2 php8.3-curl php8.3-exif php8.3-ftp php8.3-gd php8.3-gettext php8.3-gmp php8.3-http php8.3-igbinary php8.3-imagick php8.3-imap php8.3-intl php8.3-ldap php8.3-memcached php8.3-mongodb php8.3-msgpack php8.3-mysql php8.3-odbc php8.3-pspell php8.3-raphf php8.3-readline php8.3-redis php8.3-snmp php8.3-soap php8.3-sockets php8.3-sqlite3 php8.3-ssh2 php8.3-tidy php8.3-xml php8.3-xmlrpc php8.3-xsl php8.3-zip
+                  php-bcmath php-bz2 php-curl php-exif php-ftp php-gd php-gmp php-http php-igbinary php-imagick php-intl php-ldap php-memcached php-mongodb php-msgpack php-mysql php-odbc php-pspell php-raphf php-readline php-redis php-snmp php-soap php-sockets php-sqlite3 php-ssh2 php-tidy php-xml php-xmlrpc php-xsl php-zip
 # ssh2 is used for composer private repositories
 # php8.1-raphf is used for pecl_http
 

@@ -30,7 +30,7 @@ sudo npm install -g npm yarn pnpm
 npm install -g @earendil-works/pi-coding-agent
 # Install Tools for pi
 sudo apt install -y ripgrep fd-find
-pi install npm:pi-smart-fetch
+sudo -u user pi install npm:pi-smart-fetch
 
 ##cp /root/flavor/000-default.conf /etc/apache2/sites-available/
 

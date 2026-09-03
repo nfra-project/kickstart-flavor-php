@@ -36,7 +36,7 @@ sudo -u user pi install npm:@apmantza/greedysearch-pi
 sudo -u user pi install npm:@juicesharp/rpiv-ask-user-question
 ##cp /root/flavor/000-default.conf /etc/apache2/sites-available/
 
-// Set default model and trust
+## Set default model and trust
 sudo -u user -H sh -c '
   mkdir -p "$HOME/.pi/agent"
   printf "%s\n" \

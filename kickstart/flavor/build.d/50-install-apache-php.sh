@@ -41,7 +41,7 @@ sudo -u user -H sh -c '
   mkdir -p "$HOME/.pi/agent"
   printf "%s\n" \
     "{" \
-    "  \"defaultProvider\": \"openai-codex\"," \
+    "  \"defaultProvider\": \"openai\"," \
     "  \"defaultModel\": \"gpt-5.6-luna\"," \
     "  \"defaultProjectTrust\": \"always\"" \
     "}" > "$HOME/.pi/agent/settings.json"

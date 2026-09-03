@@ -31,9 +31,9 @@ npm install -g @earendil-works/pi-coding-agent
 # Install Tools for pi
 sudo apt install -y ripgrep fd-find
 
-sudo -u user pi install npm:pi-smart-fetch
-sudo -u user pi install npm:@apmantza/greedysearch-pi
-sudo -u user pi install npm:@juicesharp/rpiv-ask-user-question
+pi install npm:pi-smart-fetch
+pi install npm:@apmantza/greedysearch-pi
+pi install npm:@juicesharp/rpiv-ask-user-question
 ##cp /root/flavor/000-default.conf /etc/apache2/sites-available/
 
 ## Set default model and trust

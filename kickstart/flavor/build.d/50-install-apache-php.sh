@@ -17,6 +17,8 @@ apt-get -y install gettext openssh-server apache2 libapache2-mod-php php-xdebug 
 
 
 # Install Node and NPM - See https://nodesource.com/products/distributions
+# Ubuntu's Rust env rejects npm's shebang under ARM64 QEMU emulation.
+apt-get install -y --allow-remove-essential coreutils-from-gnu coreutils-from-uutils-
 curl -sL https://deb.nodesource.com/setup_25.x | sudo bash -
 sudo apt-get install -y nodejs
 sudo npm install -g npm yarn pnpm

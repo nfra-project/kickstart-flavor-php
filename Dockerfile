@@ -14,6 +14,7 @@ ADD /kickstart /kickstart
 
 # Do not put env config vars here - put them in prepare.d/
 
+RUN apt-get update && apt-get install -y --allow-remove-essential coreutils-from-gnu coreutils-from-uutils-
 
 RUN chmod -R 755 /kickstart && /kickstart/flavor/build.sh
 ENTRYPOINT ["/kickstart/run/entrypoint.sh"]
